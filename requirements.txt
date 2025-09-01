@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-google-genai
+langchain-pinecone
+pinecone-client
+google-generativeai
+python-dotenv
+PyPDF2
+fastapi
+uvicorn
+requests
