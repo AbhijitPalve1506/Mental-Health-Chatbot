@@ -1,4 +1,4 @@
-# 🧠 Mental Health Chatbot (CBT Skills)
+# 🧠 Mental Health Chatbot 
 
 A RAG-powered chatbot that provides information about Cognitive Behavioral Therapy (CBT) skills using a PDF workbook as the knowledge base.
 
