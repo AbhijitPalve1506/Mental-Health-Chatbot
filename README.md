@@ -5,7 +5,7 @@ A RAG-powered chatbot that provides information about Cognitive Behavioral Thera
 ## 🚀 Features
 
 - **RAG Architecture**: Uses Pinecone vector database for semantic search
-- **Gemini 1.5 Flash**: Powered by Google's latest LLM
+- **Gemini 2.0 Flash**: Powered by Google's latest LLM
 - **FastAPI Backend**: RESTful API with automatic documentation
 - **Streamlit Frontend**: Clean, user-friendly chat interface
 - **PDF Processing**: Automatically ingests and chunks CBT workbook content
@@ -15,7 +15,8 @@ A RAG-powered chatbot that provides information about Cognitive Behavioral Thera
 - Python 3.8+
 - Pinecone account and API key
 - Google AI API key
-- CBT Skills Workbook PDF
+- Mental Health Care Book.pdf
+- You Become What You think.pdf
 
 ## 🛠️ Setup
 
@@ -55,7 +56,7 @@ ex. if file name is api.py then run :
 uvicorn api:app --reload
 ```
 
-The FastAPI server will start at `http://127.0.0.1:8000`
+The FastAPI server will start at `https://mental-health-chatbot-backend-hi3p.onrender.com`
 
 ### 5. Start the Frontend
 
@@ -86,8 +87,8 @@ The Streamlit app will open at `http://localhost:8501`
 
 ### Health Checks
 
-- **Backend Health**: `http://127.0.0.1:8000/health`
-- **API Docs**: `http://127.0.0.1:8000/docs`
+- **Backend Health**: `https://mental-health-chatbot-backend-hi3p.onrender.com`
+- **API Docs**: `https://mental-health-chatbot-backend-hi3p.onrender.com/docs`
 
 ## 📁 Project Structure
 
@@ -96,7 +97,8 @@ Mental Health Chatbot/
 ├── backend/
 │   └── api.py              # FastAPI backend with RAG logic
 ├── data/
-│   └── CBT Skills Workbook.pdf
+│   └── Mental Health Care Book.pdf
+│   └── You Become What You think.pdf
 ├── frontend/
 │   └── app.py              # Streamlit chat interface
 ├── ingestion/
