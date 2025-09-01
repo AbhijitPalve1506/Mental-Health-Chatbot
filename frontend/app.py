@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI backend URL
-API_URL = "http://127.0.0.1:8000/ask"
+API_URL = "https://mental-health-chatbot-backend-hi3p.onrender.com/ask"
 
 st.set_page_config(page_title="Mental Health Chatbot", page_icon="💬")
 

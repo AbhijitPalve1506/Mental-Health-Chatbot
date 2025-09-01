@@ -2,10 +2,11 @@ streamlit
 langchain
 langchain-google-genai
 langchain-pinecone
+langchain-community
 pinecone-client
 google-generativeai
 python-dotenv
-PyPDF2
+pypdf2
 fastapi
-uvicorn
+uvicorn[standard]
 requests
