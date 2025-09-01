@@ -49,9 +49,10 @@ This will:
 - Store vectors in Pinecone
 
 ### 4. Start the Backend
-
+this is a FastAPI app, the recommended way is to run it with uvicorn (ASGI server):
+ex. if file name is api.py then run :
 ```bash
-python run_backend.py
+uvicorn api:app --reload
 ```
 
 The FastAPI server will start at `http://127.0.0.1:8000`
@@ -71,11 +72,11 @@ The Streamlit app will open at `http://localhost:8501`
 ### Common Issues
 
 1. **"Cannot connect to backend server"**
-   - Ensure the FastAPI server is running (`python run_backend.py`)
+   - Ensure the FastAPI server is running 
    - Check if port 8000 is available
 
 2. **"No answer generated"**
-   - Verify your Pinecone index contains data
+   - Verify your Pinecone index contains data (`check on pinecone.io`)
    - Check that your API keys are correct
    - Ensure the PDF was ingested successfully
 
