@@ -95,6 +95,7 @@ The Streamlit app will open at `http://localhost:8501`
 Mental Health Chatbot/
 ├── backend/
 │   └── api.py              # FastAPI backend with RAG logic
+│   └── requirements.txt         # Python dependencies
 ├── data/
 │   └── Mental Health Care Book.pdf
 │   └── You Become What You think.pdf
@@ -102,8 +103,7 @@ Mental Health Chatbot/
 │   └── app.py              # Streamlit chat interface
 ├── ingestion/
 │   └── ingest.py           # PDF processing and vector storage
-├── requirements.txt         # Python dependencies
-├── run_backend.py          # Backend server launcher
+│   └── indexCleaner.py           # To Clean the Vector storage to store new embeddigs
 └── README.md               # This file
 ```
 
