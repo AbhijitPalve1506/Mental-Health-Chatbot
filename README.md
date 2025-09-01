@@ -74,7 +74,6 @@ The Streamlit app will open at `http://localhost:8501`
 
 1. **"Cannot connect to backend server"**
    - Ensure the FastAPI server is running 
-   - Check if port 8000 is available
 
 2. **"No answer generated"**
    - Verify your Pinecone index contains data (`check on pinecone.io`)
